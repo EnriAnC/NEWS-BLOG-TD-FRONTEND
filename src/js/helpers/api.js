@@ -1,7 +1,7 @@
 // const NAME = 'chocolateria-backend-node-production.up.railway.app',
 //     DOMAIN = `https://${NAME}`,
 const NAME = 'news-blog-td-backend-production.up.railway.app',
-    DOMAIN = `http://${NAME}`,
+    DOMAIN = `https://${NAME}`,
     SITE = `${DOMAIN}`,
     API = `${SITE}/api/v1`,
     ALLNEWS = `${API}/allNews`,
