@@ -1,0 +1,34 @@
+
+<div class="container p-5">
+    <form id="form-register" class="d-flex flex-column align-items-center">
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+            <label class="form-label" for="name">Nombre</label>
+            <input type="text" name="name" id="name" class="form-control" required
+            placeholder="Escribe tu nombre" 
+            title="El Nombre solo acepta letras sin espacios"
+            pattern="^([A-Za-z0-9]+|-[A-Za-z0-9]+|_[A-Za-z0-9]+){1,50}$"/>
+          
+        </div>
+        <div class="form-outline mb-4">
+            <label class="form-label" for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" required
+            placeholder="Escribe tu email" 
+            title="Email incorrecto"
+            pattern="^[A-Za-z0-9]+(\.[A-Za-z0-9]+|-[A-Za-z0-9]+|_[A-Za-z0-9]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*(\.[A-Za-z]{2,15})$"/>
+          
+        </div>
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+            <label class="form-label" for="password">Password</label>
+            <input type="password" name="password" id="password" class="form-control"  required
+            placeholder="Contraseña" 
+            title="La contraseña es requerida"
+            pattern="[A-Za-z0-9]{5,30}$"/>
+          
+        </div>
+      
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4">Registrarse</button>
+      </form>
+</div>

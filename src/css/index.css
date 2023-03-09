@@ -1,0 +1,22 @@
+body{
+  min-height: 100vh;
+}
+.main{
+  padding-top: 56px;
+}
+.hero-img{
+  margin-left: 5vw;
+  width: 200px;
+}
+
+.hero{
+  background-color: rgb(188, 188, 188);
+  padding: 1rem;
+}
+a{
+  cursor: pointer;
+}
+
+.news-block img{
+    max-width: 90vh;
+}
